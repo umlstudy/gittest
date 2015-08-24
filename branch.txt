@@ -1,0 +1,15 @@
+새 브랜치 생성
+$ git branch iss53
+$ git checkout iss53
+or
+$ git checkout -b iss53
+
+마스타로 병합
+$ git checkout master
+$ git merge iss53
+
+브랜치 삭제
+$ git branch -d iss53
+
+브랜치 푸쉬
+$ git push origin iss53
